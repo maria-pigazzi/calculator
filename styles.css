@@ -49,6 +49,7 @@ body {
 
 .two-space {
   grid-column: span 2;
+  background-color: #e63946;
 }
 
 .output {
@@ -60,6 +61,7 @@ body {
   padding: 10px;
   word-wrap: break-word;
   word-break: break-all;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .output .previous-operand {
@@ -67,7 +69,7 @@ body {
   font-size: 1rem;
 }
 
-.output .previous-operand {
-  color: #1d3557;
+.output .current-operand {
+  color: #e63946;
   font-size: 1rem;
 }
